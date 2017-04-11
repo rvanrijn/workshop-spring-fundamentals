@@ -43,6 +43,14 @@ atlassian-ide-plugin.xml
 # Cursive Clojure plugin
 .idea/replstate.xml
 
+# IntelliJ specific files
+.idea/compiler.xml
+.idea/encodings.xml
+.idea/kotlinc.xml
+.idea/misc.xml
+.idea/uiDesigner.xml
+.idea/workspace.xml
+
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
 crashlytics.properties
