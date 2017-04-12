@@ -15,18 +15,18 @@ public class ProgrammerServiceImpl implements ProgrammerService {
     @Autowired
     private ProgrammerRepository programmerRepository;
 
-
-    //@Autowired
+    /*
+    @Autowired
     public ProgrammerServiceImpl(ProgrammerRepository programmerRepository) {
         System.out.print("Constructor Injection");
         this.programmerRepository = programmerRepository;
     }
 
-    //@Autowired
+    @Autowired
     public void setCustomerRepository(ProgrammerRepository customerRepository) {
         System.out.println("Setter Injection");
         this.programmerRepository = customerRepository;
-    }
+    }*/
 
     @Override
     public List<Programmer> findAll() {
